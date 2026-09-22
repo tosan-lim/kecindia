@@ -1,0 +1,30 @@
+# WordPress core and local runtime files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+/wp-content/plugins/
+/wp-content/*
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/wflogs/
+/wp-content/ai1wm-backups/
+/wp-content/mu-plugins/
+
+# Keep only the custom theme in this repository.
+/wp-content/themes/*
+!/wp-content/themes/
+!/wp-content/themes/generatepress-cafe24/
+!/wp-content/themes/generatepress-cafe24/**
+
+# Local configuration and IDE files
+wp-config.php
+.htaccess
+.env
+.idea/
+.vscode/
+*.log
